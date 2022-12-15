@@ -1,0 +1,13 @@
+Item,Qty,Reference(s),Value
+1,1,C1,0.1uF
+2,1,C2,0.01uF
+3,1,C3,0.68uF
+4,2,"R1, R2",100
+5,1,R3,360
+6,1,R4,3.6K
+7,1,R5,510K
+8,1,R6,30K
+9,56,SW1-SW56,Cherry MX keyswitch
+10,2,,Cherry MX spacebar stabilizer
+11,1,U1,ATmega644P-20P
+12,2,"U2, U3",NE555P
