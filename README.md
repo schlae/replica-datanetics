@@ -58,6 +58,43 @@ If you have a minipro programmer (TL866 etc) you can program the device by typin
 
 [Mike Willegal's site](http://www.willegal.net/appleii/apple1-datanetics.htm) has drawings for a mechanical bracket.
 
+## Connecting to an Apple 1
+
+If you want to connect this keyboard to an Apple 1, you can use the following wiring diagram. The connector to use is a 30-pin 0.156" edge connector, something like EDAC 305-030-520-202 or equivalent. The DIP plug is an insulation displacement connector, something like CW CWR-130-16-0001 or equivalent.
+
+| Edge connector pin | Description | DIP plug pin |
+|--------------------|-------------|--------------|
+| A | No connect (was -12V) | 11 (-12V) |
+| B | Data bit 6 | 7 (B6) |
+| C | Data bit 5 | 6 (B5) |
+| D | Data bit 4 | 2 (B4) |
+| E | Data bit 1 | 5 (B1) |
+| F | Data bit 2 | 4 (B2) |
+| H | Data bit 3 | 3 (B3) |
+| J | Reset key | 1 (Reset) |
+| K | Reset key | 9 (Gnd) |
+| L | No connect (was OE) | No connect |
+| M | Strobe | 14 (Str) |
+| N | Data bit 7 | 8 (B7) |
+| P | Data bit 8 | No connect |
+| R | No connect (was data bit 9) | No connect |
+| S | Ground | 9 |
+| 1 | No connect | |
+| 2 | No connect | |
+| 3 | No connect | |
+| 4 | +5V | 15, 16 |
+| 5 | No connect | |
+| 6 | No connect | |
+| 7 | No connect | |
+| 8 | Extra key 4 | 12 (Clr) |
+| 9 | Extra key 4 | 16 |
+| 10 | Extra key 3 | |
+| 11 | Extra key 3 | |
+| 12 | Extra key 1 | |
+| 13 | Extra key 1 | |
+| 14 | Extra key 2 | |
+| 15 | Extra key 2 | |
+
 ## License
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
 International License. See [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/).
